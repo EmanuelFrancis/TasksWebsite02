@@ -1,0 +1,23 @@
+/*
+ Theme Name:   Twentytwenty Child Theme
+ Theme URI:    null
+ Description:  Twenty Twenty Child Theme
+ Author:       John Doe
+ Author URI:   null
+ Template:     twentytwenty
+ Version:      1.0.0
+
+*/
+
+@import url("../twentytwenty/style.css");
+
+td {border: 1px #DDD solid; padding: 5px; cursor: pointer;}
+
+.selected {
+    background-color: brown;
+    color: #FFF;
+}
+
+div#mainContent {
+    margin: 0px 100px;
+}
